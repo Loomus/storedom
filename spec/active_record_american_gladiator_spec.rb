@@ -136,7 +136,7 @@ describe "ActiveRecord American Gladiator" do
                                .group("items.id")
                                .order("COUNT(items.id) DESC")
                                .limit(2)
-      # Changeable Stop
+      # Changeable Stop 
 
       # Hints: http://apidock.com/rails/ActiveRecord/QueryMethods/select
       #        http://stackoverflow.com/questions/8696005/rails-3-activerecord-order-by-count-on-association
