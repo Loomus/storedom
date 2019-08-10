@@ -203,14 +203,14 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  capybara
   coffee-rails (~> 4.0.0)
   database_cleaner
   faker
-  haml-rails
   jbuilder (~> 2.0)
   jquery-rails
   less-rails-bootstrap
+  minitest-rails
+  minitest-rails-capybara
   pry
   rails (~> 4.2.10)
   rspec-rails

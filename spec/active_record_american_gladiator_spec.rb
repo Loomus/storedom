@@ -8,7 +8,7 @@ describe "ActiveRecord American Gladiator" do
       Item.create(name: "Crash Pad", status: "inactive")
 
       # Changeable Start
-      items = Item.unscoped.all
+      items = Item.unscoped.all 
       # Changeable End
 
       expect(items.count).to eq 3
@@ -136,7 +136,7 @@ describe "ActiveRecord American Gladiator" do
                                .group("items.id")
                                .order("COUNT(items.id) DESC")
                                .limit(2)
-      # Changeable Stop 
+      # Changeable Stop
 
       # Hints: http://apidock.com/rails/ActiveRecord/QueryMethods/select
       #        http://stackoverflow.com/questions/8696005/rails-3-activerecord-order-by-count-on-association
